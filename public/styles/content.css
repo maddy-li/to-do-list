@@ -79,6 +79,11 @@ body {
     border: none; 
 }
 
+#addTaskForm button[type="submit"]:hover {
+    background-color: #7C9473;
+    cursor: pointer;
+}
+
 .list-item:hover {
     color: #7C9473;
     cursor: pointer; /* Show a pointer cursor on hover */
