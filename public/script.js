@@ -1,4 +1,4 @@
-        // Function to update the date and time
+        // updates date and time
         function updateDateTime() {
             const currentDate = new Date();
             const options = { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit'};
@@ -6,13 +6,11 @@
             document.getElementById('todays-date').innerText = formattedDate;
         }
 
-        // Initial call to update the date
+        // updates every second
         updateDateTime();
-
-        // Update the date and time every 1 second (1000 milliseconds)
         setInterval(updateDateTime, 1000);
 
-        // JavaScript code to clear the placeholder text on click
+        // when clicked, remove placeholder text
         const taskInput = document.getElementById('taskInput');
 
         taskInput.addEventListener('focus', function() {
@@ -22,3 +20,14 @@
         taskInput.addEventListener('blur', function() {
             this.placeholder = 'add a task';
         });
+        
+// Get all list items
+const listItems = document.querySelectorAll('.list-item');
+
+// Add click event listeners to each list item
+listItems.forEach(listItem => {
+    listItem.addEventListener('click', () => {
+        // Toggle the "crossed" class on the clicked list item
+        listItem.classList.toggle('crossed');
+    });
+});

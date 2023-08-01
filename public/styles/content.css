@@ -78,3 +78,12 @@ body {
     outline: none; 
     border: none; 
 }
+
+.list-item:hover {
+    color: #7C9473;
+    cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+.list-item.crossed {
+    text-decoration: line-through;
+}
