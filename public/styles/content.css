@@ -23,7 +23,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
 }
 
 .section {
@@ -38,4 +38,37 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;    
+}
+
+.list-item {
+    font-family: Single Day;
+    font-size: 20px;
+}
+
+#addTaskForm {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    width: 50%;
+    border: solid #E8EAE6;
+}
+
+#addTaskForm button[type="submit"] {
+    background-color: #CDD0CB;
+    color: white;
+    border: solid;
+    height: 20px;
+    width: 40px;
+    border-radius: 20px; 
+}
+
+#addTaskForm input[type="text"] {
+    border: none;
+    text-align: center;
+    font-family: Single Day;
+    width: 80%;
 }
