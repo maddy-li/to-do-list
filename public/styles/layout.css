@@ -42,7 +42,8 @@ body {
 .section {
     position: relative; 
     width: 100%;
-    height: 400px;
+    overflow: hidden;
+    padding-bottom: 15px;
     border-radius: 10px; 
 }
 
@@ -50,7 +51,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
     width: 100%;
     height: 70px;
     flex-shrink: 0;

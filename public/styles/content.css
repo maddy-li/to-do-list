@@ -71,4 +71,10 @@ body {
     text-align: center;
     font-family: Single Day;
     width: 80%;
+    margin-right: 10px;
+}
+
+#addTaskForm input[type="text"]:focus {
+    outline: none; 
+    border: none; 
 }
