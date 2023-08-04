@@ -92,3 +92,8 @@ body {
 .list-item.crossed {
     text-decoration: line-through;
 }
+
+p:hover {
+    color: #7C9473;
+    cursor: pointer;
+}
