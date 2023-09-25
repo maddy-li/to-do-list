@@ -1,2 +1,2 @@
 # to-do-list
-# add to your daily list + monthly calendar of tasks to do
+# add to your daily list 
